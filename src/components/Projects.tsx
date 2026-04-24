@@ -11,69 +11,15 @@ import { ShimmerButton } from "./magicui/shimmer-button";
 const projects = [
     {
         id: 1,
-        title: "NeuroFlow Dashboard",
-        description: "AI-powered analytics platform with real-time data visualization, machine learning insights, and automated reporting for enterprise clients.",
-        image: "https://images.unsplash.com/photo-1585123607190-72ec2979a269?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx3ZWIlMjBkYXNoYm9hcmQlMjBhbmFseXRpY3MlMjBkZXNpZ258ZW58MXx8fHwxNzczMzMxMzI3fDA&ixlib=rb-4.1.0&q=80&w=1080",
-        tags: ["React", "TypeScript", "D3.js", "Python"],
+        title: "D1CE Gaming Platform",
+        description: "A modern online gaming interface featuring a dynamic slider, sidebar navigation for categories like Live Entertainment and Sportsbook, and a responsive grid display for new games.",
+        image: "/og-image.jpg",
+        tags: ["UmiJs", "Ant Design", "Tailwind CSS", "CSS Modules"],
         category: "Web App",
-        beamColor1: "#8b5cf6",
-        beamColor2: "#3b82f6",
-        gradientColor: "#8b5cf6",
-    },
-    {
-        id: 2,
-        title: "Lumina E-Commerce",
-        description: "Modern e-commerce platform with seamless checkout, personalized recommendations, and lightning-fast performance.",
-        image: "https://images.unsplash.com/photo-1657812159055-7bae416f386d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxlY29tbWVyY2UlMjBtb2Rlcm4lMjB3ZWJzaXRlJTIwZGVzaWdufGVufDF8fHx8MTc3MzM4NTk2NXww&ixlib=rb-4.1.0&q=80&w=1080",
-        tags: ["Next.js", "Stripe", "PostgreSQL", "AWS"],
-        category: "E-Commerce",
-        beamColor1: "#3b82f6",
-        beamColor2: "#06b6d4",
-        gradientColor: "#3b82f6",
-    },
-    {
-        id: 3,
-        title: "MindScape Mobile App",
-        description: "Mental wellness app featuring meditation guides, mood tracking, and AI-driven personalized therapy sessions.",
-        image: "https://images.unsplash.com/photo-1590416986650-f8760d42dbd5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtb2JpbGUlMjBhcHAlMjBVSSUyMGRlc2lnbiUyMHByb2plY3R8ZW58MXx8fHwxNzczMzg1OTY0fDA&ixlib=rb-4.1.0&q=80&w=1080",
-        tags: ["React Native", "Node.js", "TensorFlow", "Firebase"],
-        category: "Mobile",
-        beamColor1: "#34d399",
-        beamColor2: "#3b82f6",
-        gradientColor: "#34d399",
-    },
-    {
-        id: 4,
-        title: "Quantum AI Platform",
-        description: "Enterprise ML platform enabling businesses to deploy, monitor, and scale AI models with zero infrastructure overhead.",
-        image: "https://images.unsplash.com/photo-1591453089816-0fbb971b454c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxBSSUyMG1hY2hpbmUlMjBsZWFybmluZyUyMHRlY2glMjBwcm9qZWN0fGVufDF8fHx8MTc3MzM4NTk2OHww&ixlib=rb-4.1.0&q=80&w=1080",
-        tags: ["Python", "TensorFlow", "Docker", "Kubernetes"],
-        category: "AI/ML",
-        beamColor1: "#f59e0b",
-        beamColor2: "#ef4444",
-        gradientColor: "#f59e0b",
-    },
-    {
-        id: 5,
-        title: "Prisma Design System",
-        description: "Comprehensive UI library with 200+ components, design tokens, and Figma integration for modern web apps.",
-        image: "https://images.unsplash.com/photo-1763931504138-3b9fb539f737?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhYnN0cmFjdCUyMGdyYWRpZW50JTIwY29sb3JmdWwlMjBkaWdpdGFsJTIwYXJ0fGVufDF8fHx8MTc3MzM4NTk2M3ww&ixlib=rb-4.1.0&q=80&w=1080",
-        tags: ["React", "Storybook", "Figma", "Tailwind"],
-        category: "Design System",
-        beamColor1: "#ec4899",
-        beamColor2: "#8b5cf6",
-        gradientColor: "#ec4899",
-    },
-    {
-        id: 6,
-        title: "DevFlow CLI Tool",
-        description: "Developer productivity tool that automates repetitive workflows, scaffolding, and code generation with AI assistance.",
-        image: "https://images.unsplash.com/photo-1719400471588-575b23e27bd7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwcm9mZXNzaW9uYWwlMjBkZXZlbG9wZXIlMjB3b3Jrc3BhY2UlMjBkYXJrJTIwc2V0dXB8ZW58MXx8fHwxNzczMzA1MjUyfDA&ixlib=rb-4.1.0&q=80&w=1080",
-        tags: ["TypeScript", "Node.js", "OpenAI", "CLI"],
-        category: "Web App",
-        beamColor1: "#06b6d4",
-        beamColor2: "#8b5cf6",
-        gradientColor: "#06b6d4",
+        link: "https://d1-ce-project.vercel.app/",
+        beamColor1: "#8b5cf6", 
+        beamColor2: "#6d28d9",
+        gradientColor: "#7c3aed",
     },
 ];
 
@@ -164,7 +110,9 @@ export function Projects() {
                                 transition={{ duration: 0.3 }}
                                 onMouseEnter={() => setHoveredId(project.id)}
                                 onMouseLeave={() => setHoveredId(null)}
-                                className="relative group h-full"
+                                onClick={() => window.open(project.link, "_blank")} 
+                                className="relative group h-full cursor-pointer" 
+                                
                             >
                                 <MagicCard
                                     className="relative overflow-hidden h-full flex flex-col"
