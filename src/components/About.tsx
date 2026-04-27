@@ -194,8 +194,8 @@ export function About() {
                             <div className="flex flex-col gap-2 mb-7">
                                 {[
                                     { icon: MapPin, text: "Phnom Penh, Cambodia" },
-                                    { icon: Mail, text: "sreynichsakk@gmail.com" }, 
-                                    { icon: Phone, text: "+855 (0) 93200971" }, 
+                                    { icon: Mail, text: "sreynichsakk@gmail.com" },
+                                    { icon: Phone, text: "+855 (0) 93200971" },
                                 ].map(({ icon: Icon, text }) => (
                                     <div key={text} className="flex items-center gap-3 text-gray-500">
                                         <Icon size={14} className="text-violet-400" />
@@ -206,17 +206,30 @@ export function About() {
                         </BlurFade>
 
                         <BlurFade delay={0.7} inView>
-                            <ShimmerButton
-                                background="linear-gradient(135deg, #8b5cf6, #3b82f6)"
-                                borderRadius="12px"
-                                shimmerColor="rgba(255,255,255,0.5)"
-                                shimmerDuration="2.5s"
-                                className="px-6 py-3"
-                                style={{ fontFamily: "'Space Grotesk', sans-serif", fontWeight: 600, fontSize: "0.9rem" }}
+                            <a
+                                href="/cv.pdf"
+                                download="sak_sreynich_resume.pdf" 
+                                target="_blank"            
+                                rel="noopener noreferrer"
+                                style={{ textDecoration: 'none' }} 
                             >
-                                <Download size={15} />
-                                Download Resume
-                            </ShimmerButton>
+                                <ShimmerButton
+                                    background="linear-gradient(135deg, #8b5cf6, #3b82f6)"
+                                    borderRadius="12px"
+                                    shimmerColor="rgba(255,255,255,0.5)"
+                                    shimmerDuration="2.5s"
+                                    className="px-6 py-3 flex items-center gap-2" 
+                                    style={{
+                                        fontFamily: "'Space Grotesk', sans-serif",
+                                        fontWeight: 600,
+                                        fontSize: "0.9rem",
+                                        cursor: "pointer"
+                                    }}
+                                >
+                                    <Download size={15} />
+                                    Download Resume
+                                </ShimmerButton>
+                            </a>
                         </BlurFade>
                     </div>
                 </div>
