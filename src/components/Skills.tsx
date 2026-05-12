@@ -14,7 +14,7 @@ const skillCategories = [
         skills: [
             { name: "React / Next.js", level: 95 },
             { name: "TypeScript", level: 92 },
-            { name: "Ant Design / Umi", level: 90 },
+            { name: "Ant Design / Umi", level: 60 },
             { name: "Tailwind CSS", level: 92 },
         ],
     },
@@ -25,8 +25,8 @@ const skillCategories = [
         skills: [
             { name: "Node.js / JavaScript", level: 88 },
             { name: "PHP / MySQL", level: 85 },
-            { name: "C# / .NET", level: 80 },
-            { name: "Prisma / Zustand", level: 85 },
+            { name: "NestJS", level: 60 },
+            { name: "Prisma / Zustand", level: 80 },
         ],
     },
     {
